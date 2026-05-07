@@ -1,5 +1,5 @@
-a,b = int(input(),input())
-print(b-a)
+a, b = map(int, input().split())
+print(abs(a-b))
 
 
 
