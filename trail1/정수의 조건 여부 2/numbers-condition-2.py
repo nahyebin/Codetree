@@ -1,4 +1,4 @@
-a = int(intput())
+a = int(input())
 
 if a==5:
     print("A")
