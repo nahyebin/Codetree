@@ -2,13 +2,14 @@ a,b = map(int, input().split())
 c,d = map(int, input().split())
 
 if a>c:
-    name="A"
+    print("A")
+elif a==c:
+    if b>d:
+        print("A")
+    else:
+        print("B")
 else:
-    name="B"
+    print("B")
 
-if (a==c and b>d):
-    name="A"
-else :
-    name="B"
 
-print(name)
+
